@@ -1,0 +1,39 @@
+{
+  "name": "whatleft",
+  "version": "0.1.0",
+  "description": "See what your coding agent sends off your machine. One command, no certificates, zero dependencies.",
+  "keywords": [
+    "ai-agent",
+    "coding-agent",
+    "claude-code",
+    "codex",
+    "egress",
+    "network",
+    "audit",
+    "proxy",
+    "privacy",
+    "security"
+  ],
+  "license": "MIT",
+  "author": "Hank Zhu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shianjeng/whatleft.git"
+  },
+  "homepage": "https://github.com/shianjeng/whatleft#readme",
+  "bugs": "https://github.com/shianjeng/whatleft/issues",
+  "type": "module",
+  "bin": {
+    "whatleft": "bin/whatleft.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
